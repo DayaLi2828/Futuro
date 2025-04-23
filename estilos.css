@@ -1,37 +1,44 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f3f9ff;
-    color: #333;
+    background-color: #f3f9ff; /* Fondo azul muy clarito */
+    color: #333; /* Texto en gris oscuro */
 }
 
+/* Estilos para el encabezado de la página */
 header {
-    padding: 20px 60px;
-    overflow: hidden;
+    padding: 20px 60px; /* Espaciado interior */
+    overflow: hidden; /* Para contener los elementos flotantes */
 }
 
+/* Contenedor del logo */
 .logo {
-    float: left;
+    float: left; /* Lo colocamos a la izquierda */
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bold; /* Que el texto del nombre de la marca se vea fuerte */
 }
+
+/* Ajustamos el logo como imagen */
 .logo img {
     height: 30px;
-    vertical-align: middle;
-    margin-right: 8px;
+    vertical-align: middle; /* Lo alineamos con el texto */
+    margin-right: 8px; /* Espacio entre el logo y el texto */
 }
 
+/* Estilos del menú de navegación */
 nav {
-    float: right;
+    float: right; /* Navegación alineada a la derecha */
 }
 
+/* Estilos para los enlaces del nav */
 nav a {
-    margin-left: 25px;
-    text-decoration: none;
+    margin-left: 25px; /* Separación entre enlaces */
+    text-decoration: none; /* Quitamos el subrayado */
     color: #333;
-    font-weight: 500;
+    font-weight: 500; /* Un poco más grueso el texto */
 }
 
+/* Botón de registro con color de fondo azul y bordes redondos */
 .signup-btn {
     background-color: #57b4fd;
     color: white;
@@ -39,46 +46,53 @@ nav a {
     border-radius: 8px;
 }
 
+/* Estilos generales para la sección principal */
 main {
-    padding: 100px 60px;
-    overflow: hidden;
+    padding: 100px 60px; /* Espaciado interior generoso */
+    overflow: hidden; /* Igual que en el header, para contener floats */
 }
 
+/* Contenedor de texto, ocupa la mitad izquierda */
 .text-content {
     width: 50%;
     float: left;
 }
 
+/* Título principal */
 .text-content h1 {
     font-size: 36px;
     color: #1f1f1f;
     margin-bottom: 20px;
 }
 
+/* Párrafo debajo del título */
 .text-content p {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.6; /* Espaciado entre líneas */
     margin-bottom: 25px;
-    color: #777;
+    color: #777; /* Gris más claro para el texto descriptivo */
 }
 
+/* Botón azul para "Get Started" */
 .get-started {
     background-color: #57b4fd;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(87,180,253,0.3);
+    box-shadow: 0 10px 20px rgba(87,180,253,0.3); /* Sombra suave */
 }
 
+/* Contenedor de la imagen (persona) */
 .image-container {
     float: right;
     width: 50%;
     text-align: center;
 }
 
+/* Ajustamos la imagen dentro del contenedor */
 .image-container img {
-    max-width: 90%;
+    max-width: 90%; /* Que no se pase del tamaño del contenedor */
     height: auto;
-    border-radius: 20px;
+    border-radius: 20px; /* Bordes redondeados */
 }
